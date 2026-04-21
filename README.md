@@ -27,12 +27,21 @@ Encapsulation: I kept all data (like price and ID) private. Access is only allow
 Interfaces: I used a Rentable interface. This acts as a "contract" that ensures any new vehicle type added to the system must have rent and return functionality.
 
 📂 Simplified Project Structure
-      Package,      Component  ,   Description
-🛡️ Interfaces,    Rentable.java,  The Contract: Defines essential rental behaviors.
-🏗️ Model,Vehicle.java,The Parent: Abstract base class for all vehicles.
-🚗 Model,Car.java,Subclass: Concrete implementation of a car.
-🏍️ Model,Motorcycle.java,Subclass: Concrete implementation of a motorcycle.
-👤 Model,Customer.java,Entity: Stores user and rental history data.
-🏢 Model,Fleet.java,"Manager: The ""Garage"" that stores the collection."
-💻 GUI,SimpleRentalApp.java,View: The User Interface for the system.
-🚀 Root,VehicleRentalSystemDemo.java,Main: The entry point to start the application.
+
+   Package   |    Component          |     Description
+   
+🛡️ Interfaces |  Rentable.java      |    The Contract: Defines essential rental behaviors.
+
+🏗️ Model       |   Vehicle.java        |   The Parent: Abstract base class for all vehicles.
+
+🚗 Model        |    Car.java           |   Subclass: Concrete implementation of a car.
+
+🏍️ Model         |    Motorcycle.java    |   Subclass: Concrete implementation of a motorcycle.
+
+👤 Model          |    Customer.java      |   Entity: Stores user and rental history data.
+
+🏢 Model           |    Fleet.java         |   Manager: The ""Garage"" that stores the collection.
+
+💻 GUI              |    SimpleRentalApp.java |   View: The User Interface for the system.
+
+🚀 Root              |  VehicleRentalSystemDemo.java |  Main: The entry point to start the application.
