@@ -2,6 +2,8 @@
 🚗 Vehicle Rental System (OOP Project)
 A clean, Java-based system designed to demonstrate core Object-Oriented Programming (OOP) principles through a real-world car rental scenario.
 
+
+
 🎯 Quick Project Overview
 This project manages a fleet of vehicles (Cars and Motorcycles). It allows a user to:
 
@@ -12,6 +14,8 @@ Rent a vehicle for a specific number of days.
 Calculate the cost based on the vehicle type.
 
 Return the vehicle to the fleet.
+
+
 
 🛠️ The "Big Five" OOP Concepts
 If your lecturer asks "How did you use OOP?", use these exact points:
@@ -25,6 +29,8 @@ Abstraction: The Vehicle class is abstract. You can't rent a "generic" vehicle; 
 Encapsulation: I kept all data (like price and ID) private. Access is only allowed through Getters and Setters to protect the data.
 
 Interfaces: I used a Rentable interface. This acts as a "contract" that ensures any new vehicle type added to the system must have rent and return functionality.
+
+
 
 📂 Simplified Project Structure
 
