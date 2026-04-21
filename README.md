@@ -27,7 +27,6 @@ Encapsulation: I kept all data (like price and ID) private. Access is only allow
 Interfaces: I used a Rentable interface. This acts as a "contract" that ensures any new vehicle type added to the system must have rent and return functionality.
 
 📂 Simplified Project Structure
-Plaintext
 com.rental
 ├── interfaces/
 │   └── Rentable.java      <- The "Contract"
